@@ -20,10 +20,13 @@ header {
   background-color: #c0392b;
 }
 
+header hr {
+  width: 50%;
+  border: 2px solid #fff;
+}
 .logo {
-  padding-top: 15%;
+  padding-top: 10%;
   color: #fff;
-
 }
 
 nav {
