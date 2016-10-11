@@ -41,7 +41,8 @@ nav ul li{
 
 /** MAIN **/
 .post-box {
-  margin-left: 14px;
+  margin-left: 15px;
+  margin-top: 50px;
 }
 .post img{
   height: 350px;
