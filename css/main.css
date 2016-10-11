@@ -3,7 +3,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: #191919;
 }
 h1,h2,h3,h4,h5,h6 {
   padding: 0;
@@ -14,28 +14,41 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
 }
 /* HEADER STYLE */
-header {
-  text-align: center;
-  height: 150px;
-  background-color: #c0392b;
-}
 
-header hr {
-  width: 30%;
-  border: 2px solid #fff;
+header {
+  margin: 0 auto;
+
 }
 .logo {
-  padding-top: 10%;
-  color: #fff;
+  border-bottom: 5px solid #f1f1f1;
+  width: 260px;
+  margin: 0 auto;
+  padding-top: 25px;
+  color: #191919;
 }
 
 nav {
-  background: #191919;
-  padding: 10px;
+  margin-left: 8px;
 }
 nav ul li{
   display: inline-block;
-  text-decoration: none;
+  padding-right: 40px;
+  padding-left: 10px;
   text-transform: uppercase;
-  margin-left: 8%;
+  font-weight: 300;
+}
+
+/** MAIN **/
+
+.post {
+  margin: 5%;
+  background: #191919;
+  height: 350px;
+}
+
+/** FOOTER **/
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
 }
