@@ -40,11 +40,13 @@ nav ul li{
 }
 
 /** MAIN **/
-
-.post {
-  margin: 5%;
-  background: #191919;
+.post-box {
+  margin-left: 20px;
+}
+.post img{
   height: 350px;
+  margin: 0 auto;
+
 }
 
 /** FOOTER **/
