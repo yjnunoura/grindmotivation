@@ -18,14 +18,11 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
   margin: 0 auto;
+  text-align: center;
 
 }
 .logo {
-  border-bottom: 5px solid #f1f1f1;
-  width: 260px;
-  margin: 0 auto;
-  padding-top: 25px;
-  color: #191919;
+  margin-top: 30px;
 }
 
 nav {
@@ -34,7 +31,7 @@ nav {
 }
 nav ul li{
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 20px;
   padding-left: 5px;
   text-transform: uppercase;
   font-weight: 300;
